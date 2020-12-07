@@ -46,7 +46,7 @@ h2 {
 
 .block:hover {
   cursor: pointer;
-  background: #0ff30f;
+  background: #07f5ce;
 }
 
 .occupied:hover {
@@ -54,7 +54,7 @@ h2 {
 }
 
 .win {
-  background: #0ff30f;
+  background: #ef9607;
 }
 
 .win:hover {
@@ -87,7 +87,7 @@ h2 {
 
 button {
   outline: none;
-  border: 4px solid green;
+  border: 4px solid blue;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -106,11 +106,11 @@ button:hover {
 }
 
 .computerWin {
-  color: red;
+  color: orange;
 }
 
 .draw {
-  color: orangered;
+  color: violet;
 }
 
 @media only screen and (max-width: 600px) {
