@@ -11,7 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
 #grad1 {
 
