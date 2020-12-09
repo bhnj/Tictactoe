@@ -11,17 +11,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
-}
-grad1 {
-  height: 150px;
-  width: 200px;
-  background-image: radial-gradient(red, yellow, green);
+  background-image: radial-gradient(circle , violet ,indigo ,blue ,green ,yellow ,orange ,red ) ;
 }
 
+
 h1 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   margin-bottom: 0.5em;
+  color: maroon;
 }
 
 h2 {
@@ -59,7 +56,7 @@ h2 {
 }
 
 .win {
-  background: #ef9607;
+  background: #0ff30f;
 }
 
 .win:hover {
@@ -92,7 +89,7 @@ h2 {
 
 button {
   outline: none;
-  border: 4px solid blue;
+  border: 4px solid red;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -107,7 +104,7 @@ button:hover {
 }
 
 .playerWin {
-  color: green;
+  color: white;
 }
 
 .computerWin {
