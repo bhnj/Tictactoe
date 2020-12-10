@@ -99,11 +99,17 @@ h1 {
 h1 {
   text-align: center;
 }
-.block:hover {
+td:hover {
   cursor: pointer;
-  background: #07f5ce;
+  background: cyan;
 }
 
 .occupied:hover {
   background: #ff3a3a;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: yellowgreen;
+  color: red;
 }
