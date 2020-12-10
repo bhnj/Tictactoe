@@ -94,7 +94,7 @@ function checkTie() {
     for (cell of cells) {
       cell.removeEventListener('click',turnClick, false);
     }
-    declareWinner("Tie game");
+    declareWinner("Draw!!");
     return true;
   } 
   return false;
