@@ -1,7 +1,3 @@
-body{
-  background-image: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet)
-}
-
 td {
   border:  8px solid #333;
   height:  100px;
@@ -18,7 +14,7 @@ table {
   position:   absolute;
   left: 50%;
   margin-left: -155px;
-  top: 19%;
+  top: 24%;
 }
 
 table tr:first-child td {
@@ -39,12 +35,12 @@ table tr td:last-child {
 .endgame {
   display: none;
   width:  180px;
-  top: 228px;
+  top: 252px;
   position: absolute;
-  left: 50%;
+  left: 51%;
   margin-left: -100px;
-  padding-top: 230px;
-  padding-bottom: 50px;
+  padding-top: 235px;
+  padding-bottom: 45px;
   text-align: center;
   border-radius: 5px;
   color: whitesmoke;
@@ -54,7 +50,7 @@ table tr td:last-child {
 .selectSym{
   display: none;
   width: 220px;
-  top: 171px;
+  top: 199px;
   background-color: burlywood;
   position: absolute;
   left: 51%;
@@ -81,10 +77,10 @@ table tr td:last-child {
 }
 .button{
 position: absolute;
-  top:79% ;
-  right:47%;
+  top:85% ;
+  right:46.2%;
   outline: none;
-  border: 4px solid green;
+  border: 5px solid maroon;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -94,22 +90,40 @@ position: absolute;
 h1 {
   font-size: 4rem;
   margin-bottom: 0.5em;
-  color: blueviolet;
+  color: crimson;
 }
 h1 {
-  text-align: center;
+  position:absolute;
+  top:1% ;
+  left:38% ;
 }
 td:hover {
   cursor: pointer;
   background: cyan;
 }
-
-.occupied:hover {
-  background: #ff3a3a;
-}
-
 .button:hover {
   cursor: pointer;
-  background: yellowgreen;
+  background: purple;
   color: red;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle , red, orange, yellow, green ,blue ,indigo ,violet ) ;
+}
+.clock {
+  position: absolute;
+  top: 93%;
+  left: 82.5%;
+  transform: translateX(-10%) translateY(-10%);
+  color: orangered;
+  font-size: 30px;
+  font-family:comic sans ms ,sans-serif;
+  letter-spacing: 3.5px;
+}
+.occupied:hover {
+  background: #ff3a3a;
 }

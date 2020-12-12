@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Tic-Tac-Toe AI</title>
-  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="logobharat.jpg"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,12 +12,12 @@
 
 <body>
 	<h1>Tic-Tac-Toe</h1>
-
+	<div class="container">
 	<table>
 		<tr>
-			<td class="cell" id="0" class="block"></td>
-			<td class="cell" id="1" class="block"></td>
-			<td class="cell" id="2" class="block"></td>
+			<td class="cell" id="0" class="block occupied"></td>
+			<td class="cell" id="1" class="block occupied"></td>
+			<td class="cell" id="2" class="block occupied"></td>
 		</tr>
 		<tr>
 			<td class="cell" id="3" class="block"></td>
@@ -30,6 +30,7 @@
 			<td class="cell" id="8" class="block"></td>
 		</tr>
 	</table>
+	</div>
 	<div class="endgame">
 		<div class="text"></div>
 	</div>
@@ -39,7 +40,8 @@
       <button onClick="selectSym('O')">O</button>
     </div>
 	<button onClick="startGame()" class="button">Reset</button>
-
+	 </div>
+	 <div id="MyClockDisplay" class="clock" onload="showTime()" style=" float:right;" ></div>
   <script src="script.js"></script>
 </body>
 </html>
