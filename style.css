@@ -18,7 +18,7 @@
 h1 {
   font-size: 4.5rem;
   margin-bottom: 0.5em;
-  color: burlywood;
+  color: #dbdb58;
 }
 
 h2 {
@@ -126,4 +126,15 @@ button:hover {
     margin-top: 1em;
     font-size: 1.3rem;
   }
+}
+
+.clock {
+    position: absolute;
+    top: 90%;
+    left: 82%;
+    transform: translateX(-10%) translateY(-10%);
+    color: purple;
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    letter-spacing: 4px;
 }

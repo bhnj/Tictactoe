@@ -1,0 +1,30 @@
+body{
+    background: url('bg.jpg');
+    background-size:cover;
+}
+.tic1{
+    height: 190px;
+    width: 345px;
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+h3{
+    position: absolute;
+    top: 51%;
+    left: 0%;
+    color: darkgreen;
+}
+.tic2{
+    height: 190px;
+    width: 345px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+h4{
+   position: absolute;
+    top: 51%;
+    left: 30%;
+    color: darkgreen; 
+}
