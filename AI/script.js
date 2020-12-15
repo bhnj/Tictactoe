@@ -176,8 +176,4 @@ function showTime(){
   setTimeout(showTime, 1000);
   
 }
-
 showTime();
-{
-  document.querySelector(`#block_${i}`).classList.add("occupied");
-}

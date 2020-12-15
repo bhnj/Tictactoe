@@ -10,15 +10,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
+<body class="container">
 	<br><a href="https://bhnj.github.io/Tictactoe/"  ><img src="home.jpg" class="he" ></a> 
 	<h1>Tic-Tac-Toe</h1>
-	<div class="container">
 	<table>
 		<tr>
-			<td class="cell" id="0" class="block occupied"></td>
-			<td class="cell" id="1" class="block occupied"></td>
-			<td class="cell" id="2" class="block occupied"></td>
+			<td class="cell" id="0" class="block"></td>
+			<td class="cell" id="1" class="block"></td>
+			<td class="cell" id="2" class="block"></td>
 		</tr>
 		<tr>
 			<td class="cell" id="3" class="block"></td>
@@ -38,7 +37,7 @@
     <div class = "selectSym">
     <p>Select symbol:</p>
       <button onClick="selectSym('X')">X</button>
-      <button onClick="selectSym('O')">O</button>
+      <button onClick="selectSym('Y')">O</button>
     </div>
 	<button onClick="startGame()" class="button">Reset</button>
 	 </div>
