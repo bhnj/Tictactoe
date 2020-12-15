@@ -35,3 +35,20 @@ h4{
     color: maroon;
     font-size: 20px;
 }
+center{
+    color: maroon;
+    font-size: 40px;
+}
+.ch{
+    height: 190px;
+    top: 25%;
+    right: 10%;
+    position: absolute;
+}
+.text{
+    position: absolute;
+    top: 51%;
+    right: 27.2%;
+    font-size: 20px;
+    color: yellowgreen;
+}
